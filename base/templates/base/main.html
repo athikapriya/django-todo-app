@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <!-- meta tag -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keyword" content="python, django, sqlite, html, css">
+    <meta name="author" content="Athika Chowdhury Priya">
+    <!-- title -->
+    <title>{% block title %} {% endblock title %}</title>
+    <!-- css -->
+    {% block css %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    {% endblock css %}
+
+</head>
+<body>
+
+    <div class="container">
+        {% block content %}
+
+        {% endblock content %}
+    </div>
+    
+    
+</body>
+</html>
