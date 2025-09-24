@@ -13,17 +13,16 @@ html{
 
 body{
     background-color: #f4f4f5;
+    font-family: "Inter", sans-serif;
+    padding-top: 50px;
 }
 /* reset code and common code ends here */
 
 
 .container{
     margin: 0px auto;
-    width: 80%;
+    max-width: 550px;
     background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
+    -webkit-box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+    box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
 }
